@@ -1,0 +1,15 @@
+C:\Users\user2137\Desktop\Szpital\Szpital\Testing\bin\Debug\net6.0\PWZ_Numbers_Creator.exe
+C:\Users\user2137\Desktop\Szpital\Szpital\Testing\bin\Debug\net6.0\PWZ_Numbers_Creator.deps.json
+C:\Users\user2137\Desktop\Szpital\Szpital\Testing\bin\Debug\net6.0\PWZ_Numbers_Creator.runtimeconfig.json
+C:\Users\user2137\Desktop\Szpital\Szpital\Testing\bin\Debug\net6.0\PWZ_Numbers_Creator.dll
+C:\Users\user2137\Desktop\Szpital\Szpital\Testing\bin\Debug\net6.0\PWZ_Numbers_Creator.pdb
+C:\Users\user2137\Desktop\Szpital\Szpital\Testing\obj\Debug\net6.0\PWZ_Numbers_Creator.csproj.AssemblyReference.cache
+C:\Users\user2137\Desktop\Szpital\Szpital\Testing\obj\Debug\net6.0\PWZ_Numbers_Creator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user2137\Desktop\Szpital\Szpital\Testing\obj\Debug\net6.0\PWZ_Numbers_Creator.AssemblyInfoInputs.cache
+C:\Users\user2137\Desktop\Szpital\Szpital\Testing\obj\Debug\net6.0\PWZ_Numbers_Creator.AssemblyInfo.cs
+C:\Users\user2137\Desktop\Szpital\Szpital\Testing\obj\Debug\net6.0\PWZ_Numbers_Creator.csproj.CoreCompileInputs.cache
+C:\Users\user2137\Desktop\Szpital\Szpital\Testing\obj\Debug\net6.0\PWZ_Numbers_Creator.dll
+C:\Users\user2137\Desktop\Szpital\Szpital\Testing\obj\Debug\net6.0\refint\PWZ_Numbers_Creator.dll
+C:\Users\user2137\Desktop\Szpital\Szpital\Testing\obj\Debug\net6.0\PWZ_Numbers_Creator.pdb
+C:\Users\user2137\Desktop\Szpital\Szpital\Testing\obj\Debug\net6.0\PWZ_Numbers_Creator.genruntimeconfig.cache
+C:\Users\user2137\Desktop\Szpital\Szpital\Testing\obj\Debug\net6.0\ref\PWZ_Numbers_Creator.dll

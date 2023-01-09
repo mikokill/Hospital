@@ -1,0 +1,5 @@
+C:\Users\user2137\Desktop\Testing.exe
+C:\Users\user2137\Desktop\Testing.deps.json
+C:\Users\user2137\Desktop\Testing.runtimeconfig.json
+C:\Users\user2137\Desktop\Testing.pdb
+C:\Users\user2137\Desktop\Testing.dll

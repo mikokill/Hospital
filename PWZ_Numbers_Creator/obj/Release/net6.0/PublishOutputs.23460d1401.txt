@@ -1,0 +1,5 @@
+C:\Users\user2137\Desktop\Szpital\Szpital\Testing\bin\publish\Testing.exe
+C:\Users\user2137\Desktop\Szpital\Szpital\Testing\bin\publish\Testing.dll
+C:\Users\user2137\Desktop\Szpital\Szpital\Testing\bin\publish\Testing.deps.json
+C:\Users\user2137\Desktop\Szpital\Szpital\Testing\bin\publish\Testing.runtimeconfig.json
+C:\Users\user2137\Desktop\Szpital\Szpital\Testing\bin\publish\Testing.pdb

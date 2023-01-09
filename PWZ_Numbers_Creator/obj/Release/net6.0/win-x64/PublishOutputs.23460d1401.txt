@@ -1,0 +1,2 @@
+C:\Users\user2137\Desktop\Szpital\Szpital\Testing\bin\publish\Testing.pdb
+C:\Users\user2137\Desktop\Szpital\Szpital\Testing\bin\publish\Testing.exe
