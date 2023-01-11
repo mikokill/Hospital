@@ -1,4 +1,5 @@
-﻿namespace Hospital
+﻿using System.Globalization;
+namespace Hospital
 {
     partial class AdminAdd
     {
@@ -172,6 +173,7 @@
             this.pokazHasloCheckbox.Name = "pokazHasloCheckbox";
             this.pokazHasloCheckbox.Size = new System.Drawing.Size(88, 17);
             this.pokazHasloCheckbox.TabIndex = 5;
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("pl-PL");
             this.pokazHasloCheckbox.Text = "pokaż hasło";
             this.pokazHasloCheckbox.UseVisualStyleBackColor = false;
             this.pokazHasloCheckbox.CheckedChanged += new System.EventHandler(this.CheckBox2_CheckedChanged);

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user2137\\Desktop\\Szpital\\Szpital\\hospital\\PWZ_Numbers_Creator\\PWZ_Numbers_Creator.csproj": {}
+    "C:\\Users\\user2137\\Desktop\\hospital\\PWZ_Numbers_Creator\\PWZ_Numbers_Creator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user2137\\Desktop\\Szpital\\Szpital\\hospital\\PWZ_Numbers_Creator\\PWZ_Numbers_Creator.csproj": {
+    "C:\\Users\\user2137\\Desktop\\hospital\\PWZ_Numbers_Creator\\PWZ_Numbers_Creator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user2137\\Desktop\\Szpital\\Szpital\\hospital\\PWZ_Numbers_Creator\\PWZ_Numbers_Creator.csproj",
+        "projectUniqueName": "C:\\Users\\user2137\\Desktop\\hospital\\PWZ_Numbers_Creator\\PWZ_Numbers_Creator.csproj",
         "projectName": "PWZ_Numbers_Creator",
-        "projectPath": "C:\\Users\\user2137\\Desktop\\Szpital\\Szpital\\hospital\\PWZ_Numbers_Creator\\PWZ_Numbers_Creator.csproj",
+        "projectPath": "C:\\Users\\user2137\\Desktop\\hospital\\PWZ_Numbers_Creator\\PWZ_Numbers_Creator.csproj",
         "packagesPath": "C:\\Users\\user2137\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user2137\\Desktop\\Szpital\\Szpital\\hospital\\PWZ_Numbers_Creator\\obj\\",
+        "outputPath": "C:\\Users\\user2137\\Desktop\\hospital\\PWZ_Numbers_Creator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

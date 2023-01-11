@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user2137\\Desktop\\Szpital\\Szpital\\hospital\\Hospital\\Hospital.csproj",
+      "projectUniqueName": "C:\\Users\\user2137\\Desktop\\hospital\\Hospital\\Hospital.csproj",
       "projectName": "Hospital",
-      "projectPath": "C:\\Users\\user2137\\Desktop\\Szpital\\Szpital\\hospital\\Hospital\\Hospital.csproj",
+      "projectPath": "C:\\Users\\user2137\\Desktop\\hospital\\Hospital\\Hospital.csproj",
       "packagesPath": "C:\\Users\\user2137\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user2137\\Desktop\\Szpital\\Szpital\\hospital\\Hospital\\obj\\",
+      "outputPath": "C:\\Users\\user2137\\Desktop\\hospital\\Hospital\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

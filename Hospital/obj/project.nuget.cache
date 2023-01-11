@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h1KRCK3F7RTAtSMNR2ye93YLVhvli5R5dpBCAQDfxRq89D0+cn0pvr2N7I31LG+WuWJfeB6/HYa2HbIS/VobfA==",
+  "dgSpecHash": "B7z9PJ43OXDIErkFyQFQVcimYquBff4GrWukAZa6fbKLmL91TnhnR5CQ6IIZ8msSTANrVqOuKWBBD3y+PtPpng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user2137\\Desktop\\Szpital\\Szpital\\hospital\\Hospital\\Hospital.csproj",
+  "projectFilePath": "C:\\Users\\user2137\\Desktop\\hospital\\Hospital\\Hospital.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

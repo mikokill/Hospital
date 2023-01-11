@@ -1,6 +1,5 @@
 ﻿using System.Text.RegularExpressions;
 using static Hospital.Func;
-
 namespace Hospital
 {
     public partial class AdminAdd : Form

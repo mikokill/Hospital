@@ -39,7 +39,7 @@ namespace Hospital.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Szpital.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Hospital.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -57,6 +57,204 @@ namespace Hospital.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Podaj dane nowego konta administratora.
+        /// </summary>
+        internal static string AdminAddTitle {
+            get {
+                return ResourceManager.GetString("AdminAddTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu System Ewidencji Pracowników Szpitala.
+        /// </summary>
+        internal static string AppTitle {
+            get {
+                return ResourceManager.GetString("AppTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Utwórz.
+        /// </summary>
+        internal static string Create {
+            get {
+                return ResourceManager.GetString("Create", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Wypełnij wszystkie pola.
+        /// </summary>
+        internal static string EmptyFail {
+            get {
+                return ResourceManager.GetString("EmptyFail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Login.
+        /// </summary>
+        internal static string Login {
+            get {
+                return ResourceManager.GetString("Login", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Podany login jest zajęty.
+        /// </summary>
+        internal static string LoginFail {
+            get {
+                return ResourceManager.GetString("LoginFail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Imie.
+        /// </summary>
+        internal static string Name {
+            get {
+                return ResourceManager.GetString("Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Hasło musi składać się z co najmniej:.
+        /// </summary>
+        internal static string PassReq {
+            get {
+                return ResourceManager.GetString("PassReq", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu • jednej dużej litery.
+        /// </summary>
+        internal static string PassReq1 {
+            get {
+                return ResourceManager.GetString("PassReq1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu • jednej małej litery.
+        /// </summary>
+        internal static string PassReq2 {
+            get {
+                return ResourceManager.GetString("PassReq2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu • jednej cyfry.
+        /// </summary>
+        internal static string PassReq3 {
+            get {
+                return ResourceManager.GetString("PassReq3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu • jednego znaku.
+        /// </summary>
+        internal static string PassReq4 {
+            get {
+                return ResourceManager.GetString("PassReq4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Hasło.
+        /// </summary>
+        internal static string Password {
+            get {
+                return ResourceManager.GetString("Password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Powtórz hasło.
+        /// </summary>
+        internal static string Password2 {
+            get {
+                return ResourceManager.GetString("Password2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Podane hasła się nie zgadzają.
+        /// </summary>
+        internal static string Password2Fail {
+            get {
+                return ResourceManager.GetString("Password2Fail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Podane hasło nie spełnia wymogów bezpieczeństwa.
+        /// </summary>
+        internal static string PasswordFail {
+            get {
+                return ResourceManager.GetString("PasswordFail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Siła hasła.
+        /// </summary>
+        internal static string PasswordStrength {
+            get {
+                return ResourceManager.GetString("PasswordStrength", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu PESEL.
+        /// </summary>
+        internal static string Pesel {
+            get {
+                return ResourceManager.GetString("Pesel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Błędny PESEL.
+        /// </summary>
+        internal static string PeselFail {
+            get {
+                return ResourceManager.GetString("PeselFail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu pokaż hasło.
+        /// </summary>
+        internal static string ShowPass {
+            get {
+                return ResourceManager.GetString("ShowPass", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Sukces!.
+        /// </summary>
+        internal static string Success {
+            get {
+                return ResourceManager.GetString("Success", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Nazwisko.
+        /// </summary>
+        internal static string Surname {
+            get {
+                return ResourceManager.GetString("Surname", resourceCulture);
             }
         }
     }

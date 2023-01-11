@@ -75,7 +75,7 @@
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(88, 19);
             this.checkBox1.TabIndex = 3;
-            this.checkBox1.Text = "pokaż hasło";
+            this.checkBox1.Text = Hospital.Properties.Resources.ShowPass;
             this.checkBox1.UseVisualStyleBackColor = false;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.CheckBox1_CheckedChanged);
             // 
@@ -126,7 +126,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 19);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Login";
+            this.label2.Text = Hospital.Properties.Resources.Login;
             // 
             // label3
             // 
@@ -170,7 +170,7 @@
             this.MaximizeBox = false;
             this.Name = "Logowanie";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "System Ewidencji Pracowników Szpitala";
+            this.Text = Hospital.Properties.Resources.AppTitle;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.LoadEventHandler);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
