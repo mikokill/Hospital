@@ -1,4 +1,5 @@
-﻿namespace Hospital
+﻿using Hospital.Properties;
+namespace Hospital
 {
     partial class Login
     {
@@ -51,7 +52,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(181, 21);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Podaj dane logowania";
+            this.label1.Text = Resources.LoginTitle;
             // 
             // textBox1
             // 
@@ -61,7 +62,7 @@
             this.textBox1.Location = new System.Drawing.Point(12, 81);
             this.textBox1.Margin = new System.Windows.Forms.Padding(5);
             this.textBox1.Name = "textBox1";
-            this.textBox1.PlaceholderText = "podaj swój login";
+            this.textBox1.PlaceholderText = Resources.LoginPlaceholder;
             this.textBox1.Size = new System.Drawing.Size(327, 23);
             this.textBox1.TabIndex = 1;
             // 
@@ -75,7 +76,7 @@
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(88, 19);
             this.checkBox1.TabIndex = 3;
-            this.checkBox1.Text = Hospital.Properties.Resources.ShowPass;
+            this.checkBox1.Text = Resources.ShowPass;
             this.checkBox1.UseVisualStyleBackColor = false;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.CheckBox1_CheckedChanged);
             // 
@@ -85,7 +86,7 @@
             this.textBox2.Location = new System.Drawing.Point(12, 143);
             this.textBox2.Margin = new System.Windows.Forms.Padding(5);
             this.textBox2.Name = "textBox2";
-            this.textBox2.PlaceholderText = "podaj swoje hasło";
+            this.textBox2.PlaceholderText = Resources.PasswordPlaceholder;
             this.textBox2.Size = new System.Drawing.Size(327, 23);
             this.textBox2.TabIndex = 2;
             this.textBox2.UseSystemPasswordChar = true;
@@ -102,7 +103,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(327, 33);
             this.button1.TabIndex = 4;
-            this.button1.Text = "Zaloguj";
+            this.button1.Text = Resources.SignIn;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
@@ -126,7 +127,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 19);
             this.label2.TabIndex = 5;
-            this.label2.Text = Hospital.Properties.Resources.Login;
+            this.label2.Text = Resources.Login;
             // 
             // label3
             // 
@@ -138,7 +139,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 19);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Hasło";
+            this.label3.Text = Resources.Password;
             // 
             // blad
             // 
@@ -149,7 +150,7 @@
             this.blad.Name = "blad";
             this.blad.Size = new System.Drawing.Size(140, 15);
             this.blad.TabIndex = 7;
-            this.blad.Text = "Błędne dane logowania!";
+            this.blad.Text = Resources.SignInFail;
             this.blad.Visible = false;
             // 
             // Logowanie
@@ -170,7 +171,7 @@
             this.MaximizeBox = false;
             this.Name = "Logowanie";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = Hospital.Properties.Resources.AppTitle;
+            this.Text = Resources.AppTitle;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.LoadEventHandler);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

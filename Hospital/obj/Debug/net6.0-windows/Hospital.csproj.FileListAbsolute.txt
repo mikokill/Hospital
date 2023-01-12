@@ -33,7 +33,6 @@ C:\Users\user2137\Desktop\hospital\Hospital\obj\Debug\net6.0-windows\Hospital.Do
 C:\Users\user2137\Desktop\hospital\Hospital\obj\Debug\net6.0-windows\Hospital.Login.resources
 C:\Users\user2137\Desktop\hospital\Hospital\obj\Debug\net6.0-windows\Hospital.MainWindow.resources
 C:\Users\user2137\Desktop\hospital\Hospital\obj\Debug\net6.0-windows\Hospital.NurseAdd.resources
-C:\Users\user2137\Desktop\hospital\Hospital\obj\Debug\net6.0-windows\Hospital.Properties.Resource.pl_PL.resources
 C:\Users\user2137\Desktop\hospital\Hospital\obj\Debug\net6.0-windows\Hospital.Properties.Resources.resources
 C:\Users\user2137\Desktop\hospital\Hospital\obj\Debug\net6.0-windows\Hospital.ShiftAdd.resources
 C:\Users\user2137\Desktop\hospital\Hospital\obj\Debug\net6.0-windows\Hospital.Shifts.resources
@@ -47,3 +46,6 @@ C:\Users\user2137\Desktop\hospital\Hospital\obj\Debug\net6.0-windows\refint\Hosp
 C:\Users\user2137\Desktop\hospital\Hospital\obj\Debug\net6.0-windows\Hospital.pdb
 C:\Users\user2137\Desktop\hospital\Hospital\obj\Debug\net6.0-windows\Hospital.genruntimeconfig.cache
 C:\Users\user2137\Desktop\hospital\Hospital\obj\Debug\net6.0-windows\ref\Hospital.dll
+C:\Users\user2137\Desktop\hospital\Hospital\bin\Debug\net6.0-windows\en-US\Hospital.resources.dll
+C:\Users\user2137\Desktop\hospital\Hospital\obj\Debug\net6.0-windows\Hospital.Properties.Resources.en-US.resources
+C:\Users\user2137\Desktop\hospital\Hospital\obj\Debug\net6.0-windows\en-US\Hospital.resources.dll

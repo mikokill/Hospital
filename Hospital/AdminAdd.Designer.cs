@@ -1,4 +1,4 @@
-﻿using System.Globalization;
+﻿using Hospital.Properties;
 namespace Hospital
 {
     partial class AdminAdd
@@ -72,7 +72,7 @@ namespace Hospital
             this.loginTextbox.Location = new System.Drawing.Point(12, 92);
             this.loginTextbox.Margin = new System.Windows.Forms.Padding(5);
             this.loginTextbox.Name = "loginTextbox";
-            this.loginTextbox.PlaceholderText = "podaj login";
+            this.loginTextbox.PlaceholderText = Resources.LoginPlaceholder;
             this.loginTextbox.Size = new System.Drawing.Size(300, 23);
             this.loginTextbox.TabIndex = 1;
             this.loginTextbox.TextChanged += new System.EventHandler(this.LoginTextbox_TextChanged);
@@ -83,7 +83,7 @@ namespace Hospital
             this.hasloTextbox.Location = new System.Drawing.Point(12, 167);
             this.hasloTextbox.Margin = new System.Windows.Forms.Padding(5);
             this.hasloTextbox.Name = "hasloTextbox";
-            this.hasloTextbox.PlaceholderText = "podaj hasło";
+            this.hasloTextbox.PlaceholderText = Resources.PasswordPlaceholder;
             this.hasloTextbox.Size = new System.Drawing.Size(300, 23);
             this.hasloTextbox.TabIndex = 2;
             this.hasloTextbox.UseSystemPasswordChar = true;
@@ -99,7 +99,7 @@ namespace Hospital
             this.haslo.Name = "haslo";
             this.haslo.Size = new System.Drawing.Size(44, 19);
             this.haslo.TabIndex = 11;
-            this.haslo.Text = "Hasło";
+            this.haslo.Text = Resources.Password;
             // 
             // login
             // 
@@ -111,7 +111,7 @@ namespace Hospital
             this.login.Name = "login";
             this.login.Size = new System.Drawing.Size(43, 19);
             this.login.TabIndex = 13;
-            this.login.Text = "Login";
+            this.login.Text = Resources.Login;
             // 
             // tytul
             // 
@@ -123,7 +123,7 @@ namespace Hospital
             this.tytul.Name = "tytul";
             this.tytul.Size = new System.Drawing.Size(327, 21);
             this.tytul.TabIndex = 7;
-            this.tytul.Text = "Podaj dane nowego konta administratora";
+            this.tytul.Text = Resources.AdminAddTitle;
             // 
             // pictureBox1
             // 
@@ -146,7 +146,7 @@ namespace Hospital
             this.utworzButton.Name = "utworzButton";
             this.utworzButton.Size = new System.Drawing.Size(610, 33);
             this.utworzButton.TabIndex = 9;
-            this.utworzButton.Text = "Utwórz";
+            this.utworzButton.Text = Resources.Create;
             this.utworzButton.UseVisualStyleBackColor = false;
             this.utworzButton.Click += new System.EventHandler(this.Button1_Click);
             // 
@@ -159,7 +159,7 @@ namespace Hospital
             this.dodano.Name = "dodano";
             this.dodano.Size = new System.Drawing.Size(54, 15);
             this.dodano.TabIndex = 15;
-            this.dodano.Text = "Dodano!";
+            this.dodano.Text = Resources.Success;
             this.dodano.Visible = false;
             // 
             // pokazHasloCheckbox
@@ -173,8 +173,7 @@ namespace Hospital
             this.pokazHasloCheckbox.Name = "pokazHasloCheckbox";
             this.pokazHasloCheckbox.Size = new System.Drawing.Size(88, 17);
             this.pokazHasloCheckbox.TabIndex = 5;
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo("pl-PL");
-            this.pokazHasloCheckbox.Text = "pokaż hasło";
+            this.pokazHasloCheckbox.Text = Resources.ShowPass;
             this.pokazHasloCheckbox.UseVisualStyleBackColor = false;
             this.pokazHasloCheckbox.CheckedChanged += new System.EventHandler(this.CheckBox2_CheckedChanged);
             // 
@@ -199,7 +198,7 @@ namespace Hospital
             this.haslo2.Name = "haslo2";
             this.haslo2.Size = new System.Drawing.Size(95, 19);
             this.haslo2.TabIndex = 11;
-            this.haslo2.Text = "Powtórz hasło";
+            this.haslo2.Text = Resources.Password2;
             // 
             // peselTextbox
             // 
@@ -209,7 +208,7 @@ namespace Hospital
             this.peselTextbox.Location = new System.Drawing.Point(322, 216);
             this.peselTextbox.Margin = new System.Windows.Forms.Padding(5);
             this.peselTextbox.Name = "peselTextbox";
-            this.peselTextbox.PlaceholderText = "podaj numer PESEL";
+            this.peselTextbox.PlaceholderText = Resources.PeselPlaceholder;
             this.peselTextbox.Size = new System.Drawing.Size(300, 23);
             this.peselTextbox.TabIndex = 8;
             this.peselTextbox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TextBox2_KeyDown);
@@ -224,7 +223,7 @@ namespace Hospital
             this.pesel.Name = "pesel";
             this.pesel.Size = new System.Drawing.Size(45, 19);
             this.pesel.TabIndex = 19;
-            this.pesel.Text = "PESEL";
+            this.pesel.Text = Resources.Pesel;
             // 
             // nazwiskoTextbox
             // 
@@ -234,7 +233,7 @@ namespace Hospital
             this.nazwiskoTextbox.Location = new System.Drawing.Point(322, 154);
             this.nazwiskoTextbox.Margin = new System.Windows.Forms.Padding(5);
             this.nazwiskoTextbox.Name = "nazwiskoTextbox";
-            this.nazwiskoTextbox.PlaceholderText = "podaj nazwisko";
+            this.nazwiskoTextbox.PlaceholderText = Resources.SurnamePlaceholder;
             this.nazwiskoTextbox.Size = new System.Drawing.Size(300, 23);
             this.nazwiskoTextbox.TabIndex = 7;
             // 
@@ -248,7 +247,7 @@ namespace Hospital
             this.nazwisko.Name = "nazwisko";
             this.nazwisko.Size = new System.Drawing.Size(66, 19);
             this.nazwisko.TabIndex = 20;
-            this.nazwisko.Text = "Nazwisko";
+            this.nazwisko.Text = Resources.Surname;
             // 
             // imieTextbox
             // 
@@ -258,7 +257,7 @@ namespace Hospital
             this.imieTextbox.Location = new System.Drawing.Point(322, 92);
             this.imieTextbox.Margin = new System.Windows.Forms.Padding(5);
             this.imieTextbox.Name = "imieTextbox";
-            this.imieTextbox.PlaceholderText = "podaj imię";
+            this.imieTextbox.PlaceholderText = Resources.NamePlaceholder;
             this.imieTextbox.Size = new System.Drawing.Size(300, 23);
             this.imieTextbox.TabIndex = 6;
             // 
@@ -272,7 +271,7 @@ namespace Hospital
             this.imie.Name = "imie";
             this.imie.Size = new System.Drawing.Size(35, 19);
             this.imie.TabIndex = 21;
-            this.imie.Text = "Imię";
+            this.imie.Text = Resources.Name;
             // 
             // niezgodneHaslaLabel
             // 
@@ -284,7 +283,7 @@ namespace Hospital
             this.niezgodneHaslaLabel.Name = "niezgodneHaslaLabel";
             this.niezgodneHaslaLabel.Size = new System.Drawing.Size(161, 13);
             this.niezgodneHaslaLabel.TabIndex = 22;
-            this.niezgodneHaslaLabel.Text = "Podane hasła się nie zgadzają";
+            this.niezgodneHaslaLabel.Text = Resources.Password2Fail;
             this.niezgodneHaslaLabel.Visible = false;
             // 
             // istniejacyPesel
@@ -297,7 +296,7 @@ namespace Hospital
             this.istniejacyPesel.Name = "istniejacyPesel";
             this.istniejacyPesel.Size = new System.Drawing.Size(77, 13);
             this.istniejacyPesel.TabIndex = 23;
-            this.istniejacyPesel.Text = "Błędny PESEL";
+            this.istniejacyPesel.Text = Resources.PeselFail;
             this.istniejacyPesel.Visible = false;
             // 
             // pustePola
@@ -309,7 +308,7 @@ namespace Hospital
             this.pustePola.Name = "pustePola";
             this.pustePola.Size = new System.Drawing.Size(139, 15);
             this.pustePola.TabIndex = 24;
-            this.pustePola.Text = "Wypełnij wszystkie pola";
+            this.pustePola.Text = Resources.EmptyFail;
             this.pustePola.Visible = false;
             // 
             // zajetyLoginLabel
@@ -322,7 +321,7 @@ namespace Hospital
             this.zajetyLoginLabel.Name = "zajetyLoginLabel";
             this.zajetyLoginLabel.Size = new System.Drawing.Size(131, 13);
             this.zajetyLoginLabel.TabIndex = 25;
-            this.zajetyLoginLabel.Text = "Podany login jest zajęty";
+            this.zajetyLoginLabel.Text = Resources.LoginTaken;
             this.zajetyLoginLabel.Visible = false;
             // 
             // zle
@@ -370,7 +369,7 @@ namespace Hospital
             this.znak.Name = "znak";
             this.znak.Size = new System.Drawing.Size(91, 13);
             this.znak.TabIndex = 50;
-            this.znak.Text = "• jednego znaku";
+            this.znak.Text = Resources.PassReq4;
             // 
             // cyfra
             // 
@@ -381,7 +380,7 @@ namespace Hospital
             this.cyfra.Name = "cyfra";
             this.cyfra.Size = new System.Drawing.Size(72, 13);
             this.cyfra.TabIndex = 49;
-            this.cyfra.Text = "• jednej cyfry";
+            this.cyfra.Text = Resources.PassReq3;
             // 
             // mala
             // 
@@ -392,7 +391,7 @@ namespace Hospital
             this.mala.Name = "mala";
             this.mala.Size = new System.Drawing.Size(104, 13);
             this.mala.TabIndex = 48;
-            this.mala.Text = "• jednej małej litery";
+            this.mala.Text = Resources.PassReq2;
             // 
             // duza
             // 
@@ -403,7 +402,7 @@ namespace Hospital
             this.duza.Name = "duza";
             this.duza.Size = new System.Drawing.Size(105, 13);
             this.duza.TabIndex = 47;
-            this.duza.Text = "• jednej dużej litery";
+            this.duza.Text = Resources.PassReq1;
             // 
             // opisHasla
             // 
@@ -414,7 +413,7 @@ namespace Hospital
             this.opisHasla.Name = "opisHasla";
             this.opisHasla.Size = new System.Drawing.Size(194, 13);
             this.opisHasla.TabIndex = 46;
-            this.opisHasla.Text = "Hasło musi składać się z co najmniej:";
+            this.opisHasla.Text = Resources.PassReq;
             // 
             // label4
             // 
@@ -425,7 +424,7 @@ namespace Hospital
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(66, 19);
             this.label4.TabIndex = 42;
-            this.label4.Text = "Siła hasła";
+            this.label4.Text = Resources.PasswordStrength;
             // 
             // slabeHaslo
             // 
@@ -437,7 +436,7 @@ namespace Hospital
             this.slabeHaslo.Name = "slabeHaslo";
             this.slabeHaslo.Size = new System.Drawing.Size(279, 13);
             this.slabeHaslo.TabIndex = 51;
-            this.slabeHaslo.Text = "Podane hasło nie spełnia wymogów bezpieczeństwa";
+            this.slabeHaslo.Text = Resources.PasswordFail;
             this.slabeHaslo.Visible = false;
             // 
             // AdminAdd
@@ -480,7 +479,7 @@ namespace Hospital
             this.MaximizeBox = false;
             this.Name = "AdminAdd";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "System Ewidencji Pracowników Szpitala";
+            this.Text = Resources.AppTitle;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

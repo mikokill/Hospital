@@ -22,9 +22,10 @@ namespace Hospital
                 textBox5.Text = pesel;
                 textBox6.Text = nrpwz;
                 comboBox1.Text = specjalizacja;
+                button1.Text = Properties.Resources.Change;
             }
             else
-                comboBox1.Text = "Kardiolog";
+                comboBox1.Text = Properties.Resources.Cardiologist;
         }
 
         private void Button1_Click(object sender, EventArgs e)

@@ -17,7 +17,7 @@ namespace Hospital
             else
                 selectedDate = DateTime.Now;
             if (edit)
-                button1.Text = "Zmień";
+                button1.Text = Properties.Resources.Change;
             this.edit = edit;
             this.selectedPesel = selectedPesel;
             dateTimePicker1.Value = selectedDate;

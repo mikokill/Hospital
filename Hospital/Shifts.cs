@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace Hospital
+﻿namespace Hospital
 {
     public partial class Shifts : Form
     {
@@ -49,8 +39,8 @@ namespace Hospital
             if (x != -1)
             {
                 DialogResult wynik = MessageBox.Show(
-                    $"Czy na pewno chcesz usunąć wybrany dyżur?",
-                    "UWAGA",
+                    Properties.Resources.DeleteShiftConfirmation,
+                    Properties.Resources.Warning,
                     MessageBoxButtons.YesNo,
                     0,
                     MessageBoxDefaultButton.Button2
@@ -61,7 +51,7 @@ namespace Hospital
             }
             else
             {
-                MessageBox.Show("Wybierz dyżur do usunięcia", "Uwaga", MessageBoxButtons.OK);
+                MessageBox.Show(Properties.Resources.DeleteShift, Properties.Resources.Warning, MessageBoxButtons.OK);
             }
         }
 
@@ -81,7 +71,7 @@ namespace Hospital
             }
             else
             {
-                MessageBox.Show("Wybierz dyżur do edycji", "Uwaga", MessageBoxButtons.OK);
+                MessageBox.Show(Properties.Resources.EditShift, Properties.Resources.Warning, MessageBoxButtons.OK);
             }
         }
     }

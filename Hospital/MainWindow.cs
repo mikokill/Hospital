@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Globalization;
 using static Hospital.Func;
 
 namespace Hospital
@@ -26,7 +27,7 @@ namespace Hospital
         {
             if (listpesel.Count == 0)
             {
-                DialogResult result = MessageBox.Show("Nie ma jeszcze żadnych użytkowników.\nCzy chcesz dodać użytkownika?", "Uwaga", MessageBoxButtons.OKCancel);
+                DialogResult result = MessageBox.Show(Properties.Resources.NoUsers, Properties.Resources.Warning, MessageBoxButtons.OKCancel);
                 if (result == DialogResult.OK)
                 {
                     Hide();
@@ -135,7 +136,7 @@ namespace Hospital
                         x = i;
                 if (x==-1)
                 {
-                    MessageBox.Show("Wybierz osobę do edycji dyżurów", "Uwaga", MessageBoxButtons.OK);
+                    MessageBox.Show(Properties.Resources.EditShifts, Properties.Resources.Warning, MessageBoxButtons.OK);
                 }
                 else
                 {
@@ -163,7 +164,7 @@ namespace Hospital
                         x = i;
                 if (x==-1)
                 {
-                    MessageBox.Show("Wybierz osobę do edycji dyżurów", "Uwaga", MessageBoxButtons.OK);
+                    MessageBox.Show(Properties.Resources.EditShifts, Properties.Resources.Warning, MessageBoxButtons.OK);
                 }
                 else
                 {
@@ -235,7 +236,7 @@ namespace Hospital
             }
             else
             {
-                MessageBox.Show("Wybierz osobę do edycji", "Uwaga", MessageBoxButtons.OK);
+                MessageBox.Show(Properties.Resources.EditUser, Properties.Resources.Warning, MessageBoxButtons.OK);
             }
             Form2_Load(sender, e);
             Karty_SelectedIndexChanged(sender, e);
@@ -253,9 +254,11 @@ namespace Hospital
                 string imie = listView1.Items[x].SubItems[0].Text;
                 string nazwisko = listView1.Items[x].SubItems[1].Text;
                 string pesel = listView1.Items[x].SubItems[3].Text;
+                string info = Properties.Resources.DeleteConfirmation.Replace("{imie}", imie).Replace("{nazwisko}", nazwisko).Replace("{pesel}", pesel);
+                Debug.WriteLine(info);
                 DialogResult wynik = MessageBox.Show(
-                    $"Czy na pewno chcesz usunąć konto użytkownika: {imie} {nazwisko},\no numerze PESEL: {pesel}",
-                    "UWAGA",
+                    info,
+                    Properties.Resources.Warning,
                     MessageBoxButtons.YesNo,
                     0,
                     MessageBoxDefaultButton.Button2
@@ -280,7 +283,7 @@ namespace Hospital
             }
             else
             {
-                MessageBox.Show("Wybierz osobę do usunięcia", "Uwaga", MessageBoxButtons.OK);
+                MessageBox.Show(Properties.Resources.DeleteUser, Properties.Resources.Warning, MessageBoxButtons.OK);
             }
             Form2_Load(sender, e);
             Karty_SelectedIndexChanged(sender, e);
@@ -288,7 +291,7 @@ namespace Hospital
 
         private void AdministratorzyUsun_Click(object sender, EventArgs e)
         {
-            if(administratorzyLista.Items.Count == 1) MessageBox.Show("W systemie musi figurować co najmniej jedno konto administratora.", "UWAGA", MessageBoxButtons.OK);
+            if(administratorzyLista.Items.Count == 1) MessageBox.Show(Properties.Resources.OneAdmin, Properties.Resources.Warning, MessageBoxButtons.OK);
             else
             {
                 int x = -1;
@@ -301,9 +304,10 @@ namespace Hospital
                     string imie = administratorzyLista.Items[x].SubItems[0].Text;
                     string nazwisko = administratorzyLista.Items[x].SubItems[1].Text;
                     string pesel = administratorzyLista.Items[x].SubItems[2].Text;
+                    string info = Properties.Resources.DeleteConfirmation.Replace("{imie}", imie).Replace("{nazwisko}", nazwisko).Replace("{pesel}", pesel);
                     DialogResult wynik = MessageBox.Show(
-                        $"Czy na pewno chcesz usunąć konto użytkownika: {imie} {nazwisko},\no numerze PESEL: {pesel}",
-                        "UWAGA",
+                        info,
+                        Properties.Resources.Warning,
                         MessageBoxButtons.YesNo,
                         0,
                         MessageBoxDefaultButton.Button2
@@ -312,9 +316,6 @@ namespace Hospital
                         for (int i = 0; i < listpesel.Count; i++)
                             if (listpesel[i] == pesel)
                             {
-                                dyzuryDaty.RemoveAt(SprawdzIndexWystapienia(dyzuryPesel, listpesel[i]));
-                                dyzurySpecjalizacja.RemoveAt(SprawdzIndexWystapienia(dyzuryPesel, listpesel[i]));
-                                dyzuryPesel.RemoveAt(SprawdzIndexWystapienia(dyzuryPesel, listpesel[i]));
                                 listimie.RemoveAt(i);
                                 listnazwisko.RemoveAt(i);
                                 listpesel.RemoveAt(i);
@@ -328,7 +329,7 @@ namespace Hospital
                 }
                 else
                 {
-                    MessageBox.Show("Wybierz osobę do usunięcia", "Uwaga", MessageBoxButtons.OK);
+                    MessageBox.Show(Properties.Resources.DeleteUser, Properties.Resources.Warning, MessageBoxButtons.OK);
                 }
                 Form2_Load(sender, e);
                 Karty_SelectedIndexChanged(sender, e);
@@ -346,9 +347,10 @@ namespace Hospital
                 string imie = listView2.Items[x].SubItems[0].Text;
                 string nazwisko = listView2.Items[x].SubItems[1].Text;
                 string pesel = listView2.Items[x].SubItems[2].Text;
+                string info = Properties.Resources.DeleteConfirmation.Replace("{imie}", imie).Replace("{nazwisko}", nazwisko).Replace("{pesel}", pesel);
                 DialogResult wynik = MessageBox.Show(
-                    $"Czy na pewno chcesz usunąć konto użytkownika: {imie} {nazwisko},\no numerze PESEL: {pesel}",
-                    "UWAGA",
+                    info,
+                    Properties.Resources.Warning,
                     MessageBoxButtons.YesNo,
                     0,
                     MessageBoxDefaultButton.Button2
@@ -373,7 +375,7 @@ namespace Hospital
             }
             else
             {
-                MessageBox.Show("Wybierz osobę do usunięcia", "Uwaga", MessageBoxButtons.OK);
+                MessageBox.Show(Properties.Resources.DeleteUser, Properties.Resources.Warning, MessageBoxButtons.OK);
             }
             Form2_Load(sender, e);
             Karty_SelectedIndexChanged(sender, e);
@@ -399,7 +401,7 @@ namespace Hospital
             }
             else
             {
-                MessageBox.Show("Wybierz osobę do edycji", "Uwaga", MessageBoxButtons.OK);
+                MessageBox.Show(Properties.Resources.EditUser, Properties.Resources.Warning, MessageBoxButtons.OK);
             }
             Form2_Load(sender, e);
             Karty_SelectedIndexChanged(sender, e);
@@ -425,7 +427,7 @@ namespace Hospital
             }
             else
             {
-                MessageBox.Show("Wybierz osobę do edycji", "Uwaga", MessageBoxButtons.OK);
+                MessageBox.Show(Properties.Resources.EditUser, Properties.Resources.Warning, MessageBoxButtons.OK);
             }
             Form2_Load(sender, e);
             Karty_SelectedIndexChanged(sender, e);
@@ -561,6 +563,18 @@ namespace Hospital
         {
             e.Cancel = true;
             e.NewWidth = listView2.Columns[e.ColumnIndex].Width;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("pl-PL");
+            InitializeComponent();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en-US");
+            InitializeComponent();
         }
     }
 }

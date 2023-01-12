@@ -1,4 +1,5 @@
-﻿namespace Hospital
+﻿using Hospital.Properties;
+namespace Hospital
 {
     partial class ShiftAdd
     {
@@ -58,7 +59,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(92, 19);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Wybierz datę:";
+            this.label1.Text = Resources.ChooseDate;
             // 
             // button1
             // 
@@ -70,7 +71,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(208, 33);
             this.button1.TabIndex = 2;
-            this.button1.Text = "Dodaj";
+            this.button1.Text = Resources.Add;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
@@ -83,7 +84,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(119, 15);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Termin niedostępny.";
+            this.label2.Text = Resources.DateFail;
             this.label2.Visible = false;
             // 
             // sukcesLabel
@@ -95,7 +96,7 @@
             this.sukcesLabel.Name = "sukcesLabel";
             this.sukcesLabel.Size = new System.Drawing.Size(50, 15);
             this.sukcesLabel.TabIndex = 4;
-            this.sukcesLabel.Text = "Sukces!";
+            this.sukcesLabel.Text = Resources.Success;
             this.sukcesLabel.Visible = false;
             // 
             // DyzurAdd
@@ -110,7 +111,7 @@
             this.Controls.Add(this.dateTimePicker1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DyzurAdd";
-            this.Text = "System Ewidencji Pracowników Szpitala";
+            this.Text = Resources.AppTitle;
             this.ResumeLayout(false);
             this.PerformLayout();
 

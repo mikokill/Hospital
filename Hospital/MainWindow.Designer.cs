@@ -1,4 +1,5 @@
-﻿namespace Hospital
+﻿using Hospital.Properties;
+namespace Hospital
 {
     partial class MainWindow
     {
@@ -94,10 +95,14 @@
             this.columnHeader6 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader7 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader8 = new System.Windows.Forms.ColumnHeader();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.karty.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // karty
@@ -106,15 +111,14 @@
             this.karty.Controls.Add(this.tabPage2);
             this.karty.Controls.Add(this.tabPage3);
             this.karty.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.karty.Dock = System.Windows.Forms.DockStyle.Fill;
             this.karty.HotTrack = true;
-            this.karty.Location = new System.Drawing.Point(0, 0);
+            this.karty.Location = new System.Drawing.Point(0, 25);
             this.karty.Margin = new System.Windows.Forms.Padding(0);
             this.karty.MaximumSize = new System.Drawing.Size(869, 488);
             this.karty.Multiline = true;
             this.karty.Name = "karty";
             this.karty.SelectedIndex = 0;
-            this.karty.Size = new System.Drawing.Size(650, 449);
+            this.karty.Size = new System.Drawing.Size(650, 447);
             this.karty.TabIndex = 0;
             this.karty.SelectedIndexChanged += new System.EventHandler(this.Karty_SelectedIndexChanged);
             // 
@@ -132,9 +136,9 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 24);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(642, 421);
+            this.tabPage1.Size = new System.Drawing.Size(642, 419);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Lekarze";
+            this.tabPage1.Text = global::Hospital.Properties.Resources.Doctors;
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -186,7 +190,7 @@
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = "Data";
+            this.columnHeader4.Text = global::Hospital.Properties.Resources.Date;
             this.columnHeader4.Width = 195;
             // 
             // lekarzeUsun
@@ -201,7 +205,7 @@
             this.lekarzeUsun.Name = "lekarzeUsun";
             this.lekarzeUsun.Size = new System.Drawing.Size(133, 33);
             this.lekarzeUsun.TabIndex = 8;
-            this.lekarzeUsun.Text = "Usuń";
+            this.lekarzeUsun.Text = global::Hospital.Properties.Resources.Delete;
             this.lekarzeUsun.UseVisualStyleBackColor = false;
             this.lekarzeUsun.Visible = false;
             this.lekarzeUsun.Click += new System.EventHandler(this.LekarzeUsun_Click);
@@ -218,7 +222,7 @@
             this.lekarzeEdytuj.Name = "lekarzeEdytuj";
             this.lekarzeEdytuj.Size = new System.Drawing.Size(133, 33);
             this.lekarzeEdytuj.TabIndex = 7;
-            this.lekarzeEdytuj.Text = "Edytuj";
+            this.lekarzeEdytuj.Text = global::Hospital.Properties.Resources.Edit;
             this.lekarzeEdytuj.UseVisualStyleBackColor = false;
             this.lekarzeEdytuj.Visible = false;
             this.lekarzeEdytuj.Click += new System.EventHandler(this.LekarzeEdytuj_Click);
@@ -235,7 +239,7 @@
             this.lekarzeDodaj.Name = "lekarzeDodaj";
             this.lekarzeDodaj.Size = new System.Drawing.Size(133, 33);
             this.lekarzeDodaj.TabIndex = 6;
-            this.lekarzeDodaj.Text = "Dodaj";
+            this.lekarzeDodaj.Text = global::Hospital.Properties.Resources.Add;
             this.lekarzeDodaj.UseVisualStyleBackColor = false;
             this.lekarzeDodaj.Visible = false;
             this.lekarzeDodaj.Click += new System.EventHandler(this.Button2_Click);
@@ -252,7 +256,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(133, 33);
             this.button1.TabIndex = 4;
-            this.button1.Text = "Dyżury";
+            this.button1.Text = global::Hospital.Properties.Resources.Shifts;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Visible = false;
             this.button1.Click += new System.EventHandler(this.Button_Dyzury);
@@ -292,27 +296,27 @@
             // 
             // imie
             // 
-            this.imie.Text = "Imie";
+            this.imie.Text = global::Hospital.Properties.Resources.Name;
             this.imie.Width = 100;
             // 
             // nazwisko
             // 
-            this.nazwisko.Text = "Nazwisko";
+            this.nazwisko.Text = global::Hospital.Properties.Resources.Surname;
             this.nazwisko.Width = 100;
             // 
             // pesel
             // 
-            this.pesel.Text = "Specjalizacja";
+            this.pesel.Text = global::Hospital.Properties.Resources.Spec;
             this.pesel.Width = 100;
             // 
             // specjalizacja
             // 
-            this.specjalizacja.Text = "PESEL";
+            this.specjalizacja.Text = global::Hospital.Properties.Resources.Pesel;
             this.specjalizacja.Width = 100;
             // 
             // nrpwz
             // 
-            this.nrpwz.Text = "Numer PWZ";
+            this.nrpwz.Text = global::Hospital.Properties.Resources.Pwz;
             this.nrpwz.Width = 100;
             // 
             // tabPage2
@@ -329,9 +333,9 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 24);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(642, 421);
+            this.tabPage2.Size = new System.Drawing.Size(642, 419);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Pielęgniarki";
+            this.tabPage2.Text = global::Hospital.Properties.Resources.Nurses;
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // label2
@@ -398,7 +402,7 @@
             this.pielegniarkiUsun.Name = "pielegniarkiUsun";
             this.pielegniarkiUsun.Size = new System.Drawing.Size(133, 33);
             this.pielegniarkiUsun.TabIndex = 8;
-            this.pielegniarkiUsun.Text = "Usuń";
+            this.pielegniarkiUsun.Text = global::Hospital.Properties.Resources.Delete;
             this.pielegniarkiUsun.UseVisualStyleBackColor = false;
             this.pielegniarkiUsun.Visible = false;
             this.pielegniarkiUsun.Click += new System.EventHandler(this.PielegniarkiUsun_Click);
@@ -415,7 +419,7 @@
             this.pielegniarkiEdytuj.Name = "pielegniarkiEdytuj";
             this.pielegniarkiEdytuj.Size = new System.Drawing.Size(133, 33);
             this.pielegniarkiEdytuj.TabIndex = 7;
-            this.pielegniarkiEdytuj.Text = "Edytuj";
+            this.pielegniarkiEdytuj.Text = global::Hospital.Properties.Resources.Edit;
             this.pielegniarkiEdytuj.UseVisualStyleBackColor = false;
             this.pielegniarkiEdytuj.Visible = false;
             this.pielegniarkiEdytuj.Click += new System.EventHandler(this.pielegniarkiEdytuj_Click);
@@ -432,7 +436,7 @@
             this.pielegniarkiDodaj.Name = "pielegniarkiDodaj";
             this.pielegniarkiDodaj.Size = new System.Drawing.Size(133, 33);
             this.pielegniarkiDodaj.TabIndex = 6;
-            this.pielegniarkiDodaj.Text = "Dodaj";
+            this.pielegniarkiDodaj.Text = global::Hospital.Properties.Resources.Add;
             this.pielegniarkiDodaj.UseVisualStyleBackColor = false;
             this.pielegniarkiDodaj.Visible = false;
             this.pielegniarkiDodaj.Click += new System.EventHandler(this.Button7_Click);
@@ -449,7 +453,7 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(133, 33);
             this.button8.TabIndex = 4;
-            this.button8.Text = "Dyżury";
+            this.button8.Text = global::Hospital.Properties.Resources.Shifts;
             this.button8.UseVisualStyleBackColor = false;
             this.button8.Visible = false;
             this.button8.Click += new System.EventHandler(this.Button_Dyzury1);
@@ -487,17 +491,17 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Imie";
+            this.columnHeader1.Text = global::Hospital.Properties.Resources.Name;
             this.columnHeader1.Width = 166;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Nazwisko";
+            this.columnHeader2.Text = global::Hospital.Properties.Resources.Surname;
             this.columnHeader2.Width = 166;
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "PESEL";
+            this.columnHeader3.Text = global::Hospital.Properties.Resources.Pesel;
             this.columnHeader3.Width = 166;
             // 
             // tabPage3
@@ -512,9 +516,9 @@
             this.tabPage3.Controls.Add(this.administratorzyLista);
             this.tabPage3.Location = new System.Drawing.Point(4, 24);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(642, 421);
+            this.tabPage3.Size = new System.Drawing.Size(642, 419);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Administratorzy";
+            this.tabPage3.Text = global::Hospital.Properties.Resources.Admins;
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // label3
@@ -566,7 +570,7 @@
             // 
             // columnHeader9
             // 
-            this.columnHeader9.Text = "Data";
+            this.columnHeader9.Text = global::Hospital.Properties.Resources.Date;
             this.columnHeader9.Width = 195;
             // 
             // administratorzyUsun
@@ -582,7 +586,7 @@
             this.administratorzyUsun.Name = "administratorzyUsun";
             this.administratorzyUsun.Size = new System.Drawing.Size(133, 33);
             this.administratorzyUsun.TabIndex = 7;
-            this.administratorzyUsun.Text = "Usuń";
+            this.administratorzyUsun.Text = global::Hospital.Properties.Resources.Delete;
             this.administratorzyUsun.UseVisualStyleBackColor = false;
             this.administratorzyUsun.Visible = false;
             this.administratorzyUsun.Click += new System.EventHandler(this.AdministratorzyUsun_Click);
@@ -600,7 +604,7 @@
             this.administratorzyEdytuj.Name = "administratorzyEdytuj";
             this.administratorzyEdytuj.Size = new System.Drawing.Size(133, 33);
             this.administratorzyEdytuj.TabIndex = 6;
-            this.administratorzyEdytuj.Text = "Edytuj";
+            this.administratorzyEdytuj.Text = global::Hospital.Properties.Resources.Edit;
             this.administratorzyEdytuj.UseVisualStyleBackColor = false;
             this.administratorzyEdytuj.Visible = false;
             this.administratorzyEdytuj.Click += new System.EventHandler(this.administratorzyEdytuj_Click);
@@ -618,7 +622,7 @@
             this.administratorzyDodaj.Name = "administratorzyDodaj";
             this.administratorzyDodaj.Size = new System.Drawing.Size(133, 33);
             this.administratorzyDodaj.TabIndex = 5;
-            this.administratorzyDodaj.Text = "Dodaj";
+            this.administratorzyDodaj.Text = global::Hospital.Properties.Resources.Add;
             this.administratorzyDodaj.UseVisualStyleBackColor = false;
             this.administratorzyDodaj.Visible = false;
             this.administratorzyDodaj.Click += new System.EventHandler(this.administratorzyDodaj_Click);
@@ -655,29 +659,50 @@
             // 
             // columnHeader6
             // 
-            this.columnHeader6.Text = "Imie";
+            this.columnHeader6.Text = global::Hospital.Properties.Resources.Name;
             this.columnHeader6.Width = 166;
             // 
             // columnHeader7
             // 
-            this.columnHeader7.Text = "Nazwisko";
+            this.columnHeader7.Text = global::Hospital.Properties.Resources.Surname;
             this.columnHeader7.Width = 166;
             // 
             // columnHeader8
             // 
-            this.columnHeader8.Text = "PESEL";
+            this.columnHeader8.Text = global::Hospital.Properties.Resources.Pesel;
             this.columnHeader8.Width = 166;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(586, -6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(31, 33);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.Location = new System.Drawing.Point(615, -5);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(31, 33);
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(650, 449);
+            this.ClientSize = new System.Drawing.Size(650, 472);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.karty);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(869, 488);
             this.MinimumSize = new System.Drawing.Size(666, 488);
             this.Name = "MainWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -693,6 +718,8 @@
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -743,5 +770,7 @@
         private Label showup_label5;
         private ListView showup_listView3;
         private ColumnHeader columnHeader9;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
     }
 }

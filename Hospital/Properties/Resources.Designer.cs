@@ -61,11 +61,29 @@ namespace Hospital.Properties {
         }
         
         /// <summary>
-        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Podaj dane nowego konta administratora.
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Dodaj.
+        /// </summary>
+        internal static string Add {
+            get {
+                return ResourceManager.GetString("Add", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Wypełnij dane konta administratora.
         /// </summary>
         internal static string AdminAddTitle {
             get {
                 return ResourceManager.GetString("AdminAddTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Administratorzy.
+        /// </summary>
+        internal static string Admins {
+            get {
+                return ResourceManager.GetString("Admins", resourceCulture);
             }
         }
         
@@ -79,6 +97,33 @@ namespace Hospital.Properties {
         }
         
         /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Kardiolog.
+        /// </summary>
+        internal static string Cardiologist {
+            get {
+                return ResourceManager.GetString("Cardiologist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Zmień.
+        /// </summary>
+        internal static string Change {
+            get {
+                return ResourceManager.GetString("Change", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Wybierz datę:.
+        /// </summary>
+        internal static string ChooseDate {
+            get {
+                return ResourceManager.GetString("ChooseDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         /// Wyszukuje zlokalizowany ciąg podobny do ciągu Utwórz.
         /// </summary>
         internal static string Create {
@@ -88,11 +133,138 @@ namespace Hospital.Properties {
         }
         
         /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Data.
+        /// </summary>
+        internal static string Date {
+            get {
+                return ResourceManager.GetString("Date", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Termin niedostępny..
+        /// </summary>
+        internal static string DateFail {
+            get {
+                return ResourceManager.GetString("DateFail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Usuń.
+        /// </summary>
+        internal static string Delete {
+            get {
+                return ResourceManager.GetString("Delete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Czy na pewno chcesz usunąć konto użytkownika: {imie} {nazwisko}, 
+        ///o numerze PESEL: {pesel}.
+        /// </summary>
+        internal static string DeleteConfirmation {
+            get {
+                return ResourceManager.GetString("DeleteConfirmation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Wybierz dyżur do usunięcia.
+        /// </summary>
+        internal static string DeleteShift {
+            get {
+                return ResourceManager.GetString("DeleteShift", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Czy na pewno chcesz usunąć wybrany dyżur?.
+        /// </summary>
+        internal static string DeleteShiftConfirmation {
+            get {
+                return ResourceManager.GetString("DeleteShiftConfirmation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Wybierz osobę do usunięcia.
+        /// </summary>
+        internal static string DeleteUser {
+            get {
+                return ResourceManager.GetString("DeleteUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Wypełnij dane konta lekarza.
+        /// </summary>
+        internal static string DoctorAddTitle {
+            get {
+                return ResourceManager.GetString("DoctorAddTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Lekarze.
+        /// </summary>
+        internal static string Doctors {
+            get {
+                return ResourceManager.GetString("Doctors", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Edytuj.
+        /// </summary>
+        internal static string Edit {
+            get {
+                return ResourceManager.GetString("Edit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Wybier dyżur do edycji.
+        /// </summary>
+        internal static string EditShift {
+            get {
+                return ResourceManager.GetString("EditShift", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Wybierz osobę do edycji dyżurów.
+        /// </summary>
+        internal static string EditShifts {
+            get {
+                return ResourceManager.GetString("EditShifts", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Wybierz osobę do edycji.
+        /// </summary>
+        internal static string EditUser {
+            get {
+                return ResourceManager.GetString("EditUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         /// Wyszukuje zlokalizowany ciąg podobny do ciągu Wypełnij wszystkie pola.
         /// </summary>
         internal static string EmptyFail {
             get {
                 return ResourceManager.GetString("EmptyFail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Laryngolog.
+        /// </summary>
+        internal static string Laryngologist {
+            get {
+                return ResourceManager.GetString("Laryngologist", resourceCulture);
             }
         }
         
@@ -115,11 +287,93 @@ namespace Hospital.Properties {
         }
         
         /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu podaj login.
+        /// </summary>
+        internal static string LoginPlaceholder {
+            get {
+                return ResourceManager.GetString("LoginPlaceholder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Podany login jest już zajęty.
+        /// </summary>
+        internal static string LoginTaken {
+            get {
+                return ResourceManager.GetString("LoginTaken", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Podaj dane logowania.
+        /// </summary>
+        internal static string LoginTitle {
+            get {
+                return ResourceManager.GetString("LoginTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         /// Wyszukuje zlokalizowany ciąg podobny do ciągu Imie.
         /// </summary>
         internal static string Name {
             get {
                 return ResourceManager.GetString("Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu podaj imię.
+        /// </summary>
+        internal static string NamePlaceholder {
+            get {
+                return ResourceManager.GetString("NamePlaceholder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Naurolog.
+        /// </summary>
+        internal static string Neurologist {
+            get {
+                return ResourceManager.GetString("Neurologist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Nie ma jeszcze żadnych użytkowników. 
+        ///Czy chcesz dodać użytkownika?.
+        /// </summary>
+        internal static string NoUsers {
+            get {
+                return ResourceManager.GetString("NoUsers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Wypełnij dane konta pielęgniarki.
+        /// </summary>
+        internal static string NurseAddTitle {
+            get {
+                return ResourceManager.GetString("NurseAddTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Pielęgniarki.
+        /// </summary>
+        internal static string Nurses {
+            get {
+                return ResourceManager.GetString("Nurses", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu W systemie musi figurować co najmniej jedno konto administratora..
+        /// </summary>
+        internal static string OneAdmin {
+            get {
+                return ResourceManager.GetString("OneAdmin", resourceCulture);
             }
         }
         
@@ -196,11 +450,29 @@ namespace Hospital.Properties {
         }
         
         /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu podaj hasło ponownie.
+        /// </summary>
+        internal static string Password2Placeholder {
+            get {
+                return ResourceManager.GetString("Password2Placeholder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         /// Wyszukuje zlokalizowany ciąg podobny do ciągu Podane hasło nie spełnia wymogów bezpieczeństwa.
         /// </summary>
         internal static string PasswordFail {
             get {
                 return ResourceManager.GetString("PasswordFail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu podaj hasło.
+        /// </summary>
+        internal static string PasswordPlaceholder {
+            get {
+                return ResourceManager.GetString("PasswordPlaceholder", resourceCulture);
             }
         }
         
@@ -232,11 +504,101 @@ namespace Hospital.Properties {
         }
         
         /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu podaj PESEL.
+        /// </summary>
+        internal static string PeselPlaceholder {
+            get {
+                return ResourceManager.GetString("PeselPlaceholder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Numer PWZ.
+        /// </summary>
+        internal static string Pwz {
+            get {
+                return ResourceManager.GetString("Pwz", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Podano błędny numer..
+        /// </summary>
+        internal static string PwzFail {
+            get {
+                return ResourceManager.GetString("PwzFail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Sprawdź zasady weryfikacji..
+        /// </summary>
+        internal static string PwzFail2 {
+            get {
+                return ResourceManager.GetString("PwzFail2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu podaj numer PWZ.
+        /// </summary>
+        internal static string PwzPlaceholder {
+            get {
+                return ResourceManager.GetString("PwzPlaceholder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Dyżury.
+        /// </summary>
+        internal static string Shifts {
+            get {
+                return ResourceManager.GetString("Shifts", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         /// Wyszukuje zlokalizowany ciąg podobny do ciągu pokaż hasło.
         /// </summary>
         internal static string ShowPass {
             get {
                 return ResourceManager.GetString("ShowPass", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Zaloguj.
+        /// </summary>
+        internal static string SignIn {
+            get {
+                return ResourceManager.GetString("SignIn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Błędne dane logowania!.
+        /// </summary>
+        internal static string SignInFail {
+            get {
+                return ResourceManager.GetString("SignInFail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Specjalizacja.
+        /// </summary>
+        internal static string Spec {
+            get {
+                return ResourceManager.GetString("Spec", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Specjalizacja lekarska.
+        /// </summary>
+        internal static string SpecLabel {
+            get {
+                return ResourceManager.GetString("SpecLabel", resourceCulture);
             }
         }
         
@@ -255,6 +617,42 @@ namespace Hospital.Properties {
         internal static string Surname {
             get {
                 return ResourceManager.GetString("Surname", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu podaj nazwisko.
+        /// </summary>
+        internal static string SurnamePlaceholder {
+            get {
+                return ResourceManager.GetString("SurnamePlaceholder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Urolog.
+        /// </summary>
+        internal static string Urologist {
+            get {
+                return ResourceManager.GetString("Urologist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Dyżury użytkownika:.
+        /// </summary>
+        internal static string UserShifts {
+            get {
+                return ResourceManager.GetString("UserShifts", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Uwaga.
+        /// </summary>
+        internal static string Warning {
+            get {
+                return ResourceManager.GetString("Warning", resourceCulture);
             }
         }
     }

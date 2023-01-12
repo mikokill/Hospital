@@ -1,4 +1,5 @@
-﻿namespace Hospital
+﻿using Hospital.Properties;
+namespace Hospital
 {
     partial class Shifts
     {
@@ -56,7 +57,7 @@
             // 
             // data
             // 
-            this.data.Text = "Data";
+            this.data.Text = Resources.Date;
             this.data.Width = 295;
             // 
             // button3
@@ -71,7 +72,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 36);
             this.button3.TabIndex = 7;
-            this.button3.Text = "Dodaj";
+            this.button3.Text = Resources.Add;
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.Button3_Click);
             // 
@@ -87,7 +88,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 36);
             this.button2.TabIndex = 8;
-            this.button2.Text = "Usuń";
+            this.button2.Text = Resources.Delete;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -103,7 +104,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 36);
             this.button1.TabIndex = 9;
-            this.button1.Text = "Edytuj";
+            this.button1.Text = Resources.Edit;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -115,7 +116,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(52, 19);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Dyżury";
+            this.label2.Text = Resources.Shifts;
             // 
             // Dyzury
             // 
@@ -131,7 +132,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Dyzury";
-            this.Text = "System Ewidencji Pracowników Szpitala";
+            this.Text = Resources.AppTitle;
             this.Load += new System.EventHandler(this.Dyzury_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

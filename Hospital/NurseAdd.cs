@@ -20,6 +20,7 @@ namespace Hospital
                 textBox3.Text = imie;
                 textBox4.Text = nazwisko;
                 textBox5.Text = pesel;
+                button1.Text = Properties.Resources.Change;
             }
         }
         private void Button1_Click(object sender, EventArgs e)

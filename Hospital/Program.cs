@@ -1,3 +1,4 @@
+using System.Globalization;
 using static Hospital.Func;
 namespace Hospital
 {
@@ -12,6 +13,7 @@ namespace Hospital
             {
                 Application.ApplicationExit += new EventHandler(OnApplicationExit);
                 AppDomain.CurrentDomain.ProcessExit += new EventHandler(OnApplicationExit);
+                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en-US");
                 ApplicationConfiguration.Initialize();
                 Application.Run(new Login());
             }

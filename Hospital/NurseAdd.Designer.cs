@@ -1,4 +1,5 @@
-﻿namespace Hospital
+﻿using Hospital.Properties;
+namespace Hospital
 {
     partial class NurseAdd
     {
@@ -72,7 +73,7 @@
             this.slabeHaslo.Name = "slabeHaslo";
             this.slabeHaslo.Size = new System.Drawing.Size(295, 15);
             this.slabeHaslo.TabIndex = 80;
-            this.slabeHaslo.Text = "Podane hasło nie spełnia wymogów bezpieczeństwa";
+            this.slabeHaslo.Text = Resources.PasswordFail;
             this.slabeHaslo.Visible = false;
             // 
             // label13
@@ -84,7 +85,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(155, 15);
             this.label13.TabIndex = 79;
-            this.label13.Text = "Podany login jest już zajęty";
+            this.label13.Text = Resources.LoginTaken;
             this.label13.Visible = false;
             // 
             // zle
@@ -132,7 +133,7 @@
             this.znak.Name = "znak";
             this.znak.Size = new System.Drawing.Size(91, 13);
             this.znak.TabIndex = 78;
-            this.znak.Text = "• jednego znaku";
+            this.znak.Text = Resources.PassReq3;
             // 
             // cyfra
             // 
@@ -143,7 +144,7 @@
             this.cyfra.Name = "cyfra";
             this.cyfra.Size = new System.Drawing.Size(72, 13);
             this.cyfra.TabIndex = 77;
-            this.cyfra.Text = "• jednej cyfry";
+            this.cyfra.Text = Resources.PassReq3;
             // 
             // mala
             // 
@@ -154,7 +155,7 @@
             this.mala.Name = "mala";
             this.mala.Size = new System.Drawing.Size(104, 13);
             this.mala.TabIndex = 76;
-            this.mala.Text = "• jednej małej litery";
+            this.mala.Text = Resources.PassReq2;
             // 
             // duza
             // 
@@ -165,7 +166,7 @@
             this.duza.Name = "duza";
             this.duza.Size = new System.Drawing.Size(105, 13);
             this.duza.TabIndex = 75;
-            this.duza.Text = "• jednej dużej litery";
+            this.duza.Text = Resources.PassReq1;
             // 
             // label12
             // 
@@ -176,7 +177,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(194, 13);
             this.label12.TabIndex = 74;
-            this.label12.Text = "Hasło musi składać się z co najmniej:";
+            this.label12.Text = Resources.PassReq;
             // 
             // label4
             // 
@@ -187,7 +188,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(66, 19);
             this.label4.TabIndex = 70;
-            this.label4.Text = "Siła hasła";
+            this.label4.Text = Resources.PasswordStrength;
             // 
             // pustePola
             // 
@@ -198,7 +199,7 @@
             this.pustePola.Name = "pustePola";
             this.pustePola.Size = new System.Drawing.Size(139, 15);
             this.pustePola.TabIndex = 67;
-            this.pustePola.Text = "Wypełnij wszystkie pola";
+            this.pustePola.Text = Resources.EmptyFail;
             this.pustePola.Visible = false;
             // 
             // pesel
@@ -210,7 +211,7 @@
             this.pesel.Name = "pesel";
             this.pesel.Size = new System.Drawing.Size(81, 15);
             this.pesel.TabIndex = 66;
-            this.pesel.Text = "Błędny PESEL";
+            this.pesel.Text = Resources.PeselFail;
             this.pesel.Visible = false;
             // 
             // hasla
@@ -222,7 +223,7 @@
             this.hasla.Name = "hasla";
             this.hasla.Size = new System.Drawing.Size(167, 15);
             this.hasla.TabIndex = 65;
-            this.hasla.Text = "Podane hasła się nie zgadzają";
+            this.hasla.Text = Resources.Password2Fail;
             this.hasla.Visible = false;
             // 
             // textBox7
@@ -231,7 +232,7 @@
             this.textBox7.Location = new System.Drawing.Point(12, 246);
             this.textBox7.Margin = new System.Windows.Forms.Padding(5);
             this.textBox7.Name = "textBox7";
-            this.textBox7.PlaceholderText = "podaj hasło ponownie";
+            this.textBox7.PlaceholderText = Resources.Password2Placeholder;
             this.textBox7.Size = new System.Drawing.Size(300, 23);
             this.textBox7.TabIndex = 46;
             this.textBox7.UseSystemPasswordChar = true;
@@ -246,7 +247,7 @@
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(88, 19);
             this.checkBox2.TabIndex = 47;
-            this.checkBox2.Text = "pokaż hasło";
+            this.checkBox2.Text = Resources.ShowPass;
             this.checkBox2.UseVisualStyleBackColor = false;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.CheckBox2_CheckedChanged);
             // 
@@ -260,7 +261,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(95, 19);
             this.label11.TabIndex = 62;
-            this.label11.Text = "Powtórz hasło";
+            this.label11.Text = Resources.Password2;
             // 
             // textBox5
             // 
@@ -270,7 +271,7 @@
             this.textBox5.Location = new System.Drawing.Point(322, 221);
             this.textBox5.Margin = new System.Windows.Forms.Padding(5);
             this.textBox5.Name = "textBox5";
-            this.textBox5.PlaceholderText = "podaj numer PESEL";
+            this.textBox5.PlaceholderText = Resources.PeselPlaceholder;
             this.textBox5.Size = new System.Drawing.Size(300, 23);
             this.textBox5.TabIndex = 50;
             // 
@@ -284,7 +285,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(45, 19);
             this.label9.TabIndex = 56;
-            this.label9.Text = "PESEL";
+            this.label9.Text = Resources.Pesel;
             // 
             // textBox4
             // 
@@ -294,7 +295,7 @@
             this.textBox4.Location = new System.Drawing.Point(322, 159);
             this.textBox4.Margin = new System.Windows.Forms.Padding(5);
             this.textBox4.Name = "textBox4";
-            this.textBox4.PlaceholderText = "podaj nazwisko";
+            this.textBox4.PlaceholderText = Resources.SurnamePlaceholder;
             this.textBox4.Size = new System.Drawing.Size(300, 23);
             this.textBox4.TabIndex = 49;
             // 
@@ -308,7 +309,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(66, 19);
             this.label8.TabIndex = 54;
-            this.label8.Text = "Nazwisko";
+            this.label8.Text = Resources.Surname;
             // 
             // textBox3
             // 
@@ -318,7 +319,7 @@
             this.textBox3.Location = new System.Drawing.Point(322, 97);
             this.textBox3.Margin = new System.Windows.Forms.Padding(5);
             this.textBox3.Name = "textBox3";
-            this.textBox3.PlaceholderText = "podaj imię";
+            this.textBox3.PlaceholderText = Resources.NamePlaceholder;
             this.textBox3.Size = new System.Drawing.Size(300, 23);
             this.textBox3.TabIndex = 48;
             // 
@@ -332,7 +333,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(35, 19);
             this.label7.TabIndex = 61;
-            this.label7.Text = "Imię";
+            this.label7.Text = Resources.Name;
             // 
             // dodano
             // 
@@ -343,7 +344,7 @@
             this.dodano.Name = "dodano";
             this.dodano.Size = new System.Drawing.Size(54, 15);
             this.dodano.TabIndex = 55;
-            this.dodano.Text = "Dodano!";
+            this.dodano.Text = Resources.Success;
             this.dodano.Visible = false;
             // 
             // textBox1
@@ -354,7 +355,7 @@
             this.textBox1.Location = new System.Drawing.Point(12, 97);
             this.textBox1.Margin = new System.Windows.Forms.Padding(5);
             this.textBox1.Name = "textBox1";
-            this.textBox1.PlaceholderText = "podaj login";
+            this.textBox1.PlaceholderText = Resources.LoginPlaceholder;
             this.textBox1.Size = new System.Drawing.Size(300, 23);
             this.textBox1.TabIndex = 44;
             this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
@@ -365,7 +366,7 @@
             this.textBox2.Location = new System.Drawing.Point(12, 174);
             this.textBox2.Margin = new System.Windows.Forms.Padding(5);
             this.textBox2.Name = "textBox2";
-            this.textBox2.PlaceholderText = "podaj hasło";
+            this.textBox2.PlaceholderText = Resources.PasswordPlaceholder;
             this.textBox2.Size = new System.Drawing.Size(300, 23);
             this.textBox2.TabIndex = 45;
             this.textBox2.UseSystemPasswordChar = true;
@@ -381,7 +382,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 19);
             this.label3.TabIndex = 57;
-            this.label3.Text = "Hasło";
+            this.label3.Text = Resources.Password;
             // 
             // label2
             // 
@@ -393,7 +394,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 19);
             this.label2.TabIndex = 59;
-            this.label2.Text = "Login";
+            this.label2.Text = Resources.Login;
             // 
             // label1
             // 
@@ -405,7 +406,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(306, 21);
             this.label1.TabIndex = 63;
-            this.label1.Text = "Podaj dane nowego konta pielęgniarki";
+            this.label1.Text = Resources.NurseAddTitle;
             // 
             // pictureBox1
             // 
@@ -428,7 +429,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(610, 33);
             this.button1.TabIndex = 53;
-            this.button1.Text = "Utwórz";
+            this.button1.Text = Resources.Create;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
@@ -470,7 +471,7 @@
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PielegniarkaAdd";
-            this.Text = "System Ewidencji Pracowników Szpitala";
+            this.Text = Resources.AppTitle;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
