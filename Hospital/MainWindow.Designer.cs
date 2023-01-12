@@ -95,14 +95,16 @@ namespace Hospital
             this.columnHeader6 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader7 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader8 = new System.Windows.Forms.ColumnHeader();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.zmieńJęzykToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.angToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.polToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.karty.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // karty
@@ -111,14 +113,15 @@ namespace Hospital
             this.karty.Controls.Add(this.tabPage2);
             this.karty.Controls.Add(this.tabPage3);
             this.karty.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.karty.Dock = System.Windows.Forms.DockStyle.Fill;
             this.karty.HotTrack = true;
-            this.karty.Location = new System.Drawing.Point(0, 25);
+            this.karty.Location = new System.Drawing.Point(0, 24);
             this.karty.Margin = new System.Windows.Forms.Padding(0);
             this.karty.MaximumSize = new System.Drawing.Size(869, 488);
             this.karty.Multiline = true;
             this.karty.Name = "karty";
             this.karty.SelectedIndex = 0;
-            this.karty.Size = new System.Drawing.Size(650, 447);
+            this.karty.Size = new System.Drawing.Size(650, 450);
             this.karty.TabIndex = 0;
             this.karty.SelectedIndexChanged += new System.EventHandler(this.Karty_SelectedIndexChanged);
             // 
@@ -136,7 +139,7 @@ namespace Hospital
             this.tabPage1.Location = new System.Drawing.Point(4, 24);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(642, 419);
+            this.tabPage1.Size = new System.Drawing.Size(642, 422);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = global::Hospital.Properties.Resources.Doctors;
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -190,7 +193,7 @@ namespace Hospital
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = global::Hospital.Properties.Resources.Date;
+            this.columnHeader4.Text = "Data";
             this.columnHeader4.Width = 195;
             // 
             // lekarzeUsun
@@ -333,7 +336,7 @@ namespace Hospital
             this.tabPage2.Location = new System.Drawing.Point(4, 24);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(642, 419);
+            this.tabPage2.Size = new System.Drawing.Size(642, 422);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = global::Hospital.Properties.Resources.Nurses;
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -516,7 +519,7 @@ namespace Hospital
             this.tabPage3.Controls.Add(this.administratorzyLista);
             this.tabPage3.Location = new System.Drawing.Point(4, 24);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(642, 419);
+            this.tabPage3.Size = new System.Drawing.Size(642, 422);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = global::Hospital.Properties.Resources.Admins;
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -570,7 +573,7 @@ namespace Hospital
             // 
             // columnHeader9
             // 
-            this.columnHeader9.Text = global::Hospital.Properties.Resources.Date;
+            this.columnHeader9.Text = "Data";
             this.columnHeader9.Width = 195;
             // 
             // administratorzyUsun
@@ -672,38 +675,61 @@ namespace Hospital
             this.columnHeader8.Text = global::Hospital.Properties.Resources.Pesel;
             this.columnHeader8.Width = 166;
             // 
-            // pictureBox1
+            // menuStrip1
             // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(586, -6);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(31, 33);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.zmieńJęzykToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(650, 24);
+            this.menuStrip1.TabIndex = 1;
+            this.menuStrip1.Text = "menuStrip1";
             // 
-            // pictureBox2
+            // zmieńJęzykToolStripMenuItem
             // 
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.Location = new System.Drawing.Point(615, -5);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(31, 33);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.zmieńJęzykToolStripMenuItem.BackColor = System.Drawing.Color.White;
+            this.zmieńJęzykToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1});
+            this.zmieńJęzykToolStripMenuItem.Name = "zmieńJęzykToolStripMenuItem";
+            this.zmieńJęzykToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
+            this.zmieńJęzykToolStripMenuItem.Text = global::Hospital.Properties.Resources.Options;
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.angToolStripMenuItem,
+            this.polToolStripMenuItem});
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1.Text = global::Hospital.Properties.Resources.ChangeLanguage;
+            // 
+            // angToolStripMenuItem
+            // 
+            this.angToolStripMenuItem.Name = "angToolStripMenuItem";
+            this.angToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.angToolStripMenuItem.Text = global::Hospital.Properties.Resources.English;
+            this.angToolStripMenuItem.Click += new System.EventHandler(this.angToolStripMenuItem_Click);
+            // 
+            // polToolStripMenuItem
+            // 
+            this.polToolStripMenuItem.Name = "polToolStripMenuItem";
+            this.polToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.polToolStripMenuItem.Text = global::Hospital.Properties.Resources.Polish;
+            this.polToolStripMenuItem.Click += new System.EventHandler(this.polToolStripMenuItem_Click);
             // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(650, 472);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(650, 474);
             this.Controls.Add(this.karty);
+            this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(666, 488);
+            this.MaximumSize = new System.Drawing.Size(868, 513);
+            this.MinimumSize = new System.Drawing.Size(666, 513);
             this.Name = "MainWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "System Ewidencji Pracowników Szpitala";
@@ -718,9 +744,10 @@ namespace Hospital
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -770,7 +797,10 @@ namespace Hospital
         private Label showup_label5;
         private ListView showup_listView3;
         private ColumnHeader columnHeader9;
-        private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem zmieńJęzykToolStripMenuItem;
+        private ToolStripMenuItem toolStripMenuItem1;
+        private ToolStripMenuItem angToolStripMenuItem;
+        private ToolStripMenuItem polToolStripMenuItem;
     }
 }

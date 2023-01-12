@@ -115,6 +115,15 @@ namespace Hospital.Properties {
         }
         
         /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Zmień język.
+        /// </summary>
+        internal static string ChangeLanguage {
+            get {
+                return ResourceManager.GetString("ChangeLanguage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         /// Wyszukuje zlokalizowany ciąg podobny do ciągu Wybierz datę:.
         /// </summary>
         internal static string ChooseDate {
@@ -260,6 +269,15 @@ namespace Hospital.Properties {
         }
         
         /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Angielski.
+        /// </summary>
+        internal static string English {
+            get {
+                return ResourceManager.GetString("English", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         /// Wyszukuje zlokalizowany ciąg podobny do ciągu Laryngolog.
         /// </summary>
         internal static string Laryngologist {
@@ -374,6 +392,15 @@ namespace Hospital.Properties {
         internal static string OneAdmin {
             get {
                 return ResourceManager.GetString("OneAdmin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Opcje.
+        /// </summary>
+        internal static string Options {
+            get {
+                return ResourceManager.GetString("Options", resourceCulture);
             }
         }
         
@@ -509,6 +536,15 @@ namespace Hospital.Properties {
         internal static string PeselPlaceholder {
             get {
                 return ResourceManager.GetString("PeselPlaceholder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        /// Wyszukuje zlokalizowany ciąg podobny do ciągu Polski.
+        /// </summary>
+        internal static string Polish {
+            get {
+                return ResourceManager.GetString("Polish", resourceCulture);
             }
         }
         

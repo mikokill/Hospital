@@ -121,204 +121,212 @@
     <value>Add</value>
   </data>
   <data name="AdminAddTitle" xml:space="preserve">
-    <value>Fill admin account data</value>
+    <value>Fill admin's details</value>
   </data>
   <data name="Admins" xml:space="preserve">
-    <value>Administratorzy</value>
+    <value>Administrators</value>
   </data>
   <data name="AppTitle" xml:space="preserve">
     <value>Hospital Staff Management System</value>
   </data>
   <data name="Cardiologist" xml:space="preserve">
-    <value>Kardiolog</value>
+    <value>Cardiologist</value>
   </data>
   <data name="Change" xml:space="preserve">
-    <value>Zmień</value>
+    <value>Change</value>
+  </data>
+  <data name="ChangeLanguage" xml:space="preserve">
+    <value>Change language</value>
   </data>
   <data name="ChooseDate" xml:space="preserve">
-    <value>Wybierz datę:</value>
+    <value>Choose date:</value>
   </data>
   <data name="Create" xml:space="preserve">
-    <value>Utwórz</value>
+    <value>Create</value>
   </data>
   <data name="Date" xml:space="preserve">
-    <value>Data</value>
+    <value>Date</value>
   </data>
   <data name="DateFail" xml:space="preserve">
-    <value>Termin niedostępny.</value>
+    <value>Date unavailable.</value>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>Usuń</value>
+    <value>Delete</value>
   </data>
   <data name="DeleteConfirmation" xml:space="preserve">
-    <value>Czy na pewno chcesz usunąć konto użytkownika: {imie} {nazwisko}, </value>
+    <value>Are you sure you wan tot delete user account: {imie} {nazwisko},
+with pesel number: {pesel}</value>
   </data>
   <data name="DeleteShift" xml:space="preserve">
-    <value>Wybierz dyżur do usunięcia</value>
+    <value>Choose shift to delete</value>
   </data>
   <data name="DeleteShiftConfirmation" xml:space="preserve">
-    <value>Czy na pewno chcesz usunąć wybrany dyżur?</value>
+    <value>Are you sure you want to delete this shift?</value>
   </data>
   <data name="DeleteUser" xml:space="preserve">
-    <value>Wybierz osobę do usunięcia</value>
+    <value>Choose user to delete</value>
   </data>
   <data name="DoctorAddTitle" xml:space="preserve">
-    <value>Wypełnij dane konta lekarza</value>
+    <value>Fill doctor's details</value>
   </data>
   <data name="Doctors" xml:space="preserve">
-    <value>Lekarze</value>
+    <value>Doctors</value>
   </data>
   <data name="Edit" xml:space="preserve">
-    <value>Edytuj</value>
+    <value>Edit</value>
   </data>
   <data name="EditShift" xml:space="preserve">
-    <value>Wybier dyżur do edycji</value>
+    <value>Choose shift to edit</value>
   </data>
   <data name="EditShifts" xml:space="preserve">
-    <value>Wybierz osobę do edycji dyżurów</value>
+    <value>Choose user to edit shifts</value>
   </data>
   <data name="EditUser" xml:space="preserve">
-    <value>Wybierz osobę do edycji</value>
+    <value>Choose user to edit</value>
   </data>
   <data name="EmptyFail" xml:space="preserve">
-    <value>Wypełnij wszystkie pola</value>
+    <value>Fill all fields</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
   </data>
   <data name="Laryngologist" xml:space="preserve">
-    <value>Laryngolog</value>
+    <value>Laryngologist</value>
   </data>
   <data name="Login" xml:space="preserve">
     <value>Login</value>
   </data>
   <data name="LoginFail" xml:space="preserve">
-    <value>Podany login jest zajęty</value>
+    <value>Given login is taken</value>
   </data>
   <data name="LoginPlaceholder" xml:space="preserve">
-    <value>podaj login</value>
+    <value>enter login</value>
   </data>
   <data name="LoginTaken" xml:space="preserve">
-    <value>Podany login jest już zajęty</value>
+    <value>Given login is taken</value>
   </data>
   <data name="LoginTitle" xml:space="preserve">
-    <value>Podaj dane logowania</value>
+    <value>Enter login details</value>
   </data>
   <data name="Name" xml:space="preserve">
-    <value>Imie</value>
+    <value>Name</value>
   </data>
   <data name="NamePlaceholder" xml:space="preserve">
-    <value>podaj imię</value>
+    <value>enter name</value>
   </data>
   <data name="Neurologist" xml:space="preserve">
-    <value>Naurolog</value>
+    <value>Neurologist</value>
   </data>
   <data name="NoUsers" xml:space="preserve">
-    <value>Nie ma jeszcze żadnych użytkowników. </value>
+    <value>No users.
+Do you wish to add new one?</value>
   </data>
   <data name="NurseAddTitle" xml:space="preserve">
-    <value>Wypełnij dane konta pielęgniarki</value>
+    <value>Fill nurse's details</value>
   </data>
   <data name="Nurses" xml:space="preserve">
-    <value>Pielęgniarki</value>
+    <value>Nurses</value>
   </data>
   <data name="OneAdmin" xml:space="preserve">
-    <value>W systemie musi figurować co najmniej jedno konto administratora.</value>
+    <value>The system must have at least one administrator account</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Options</value>
   </data>
   <data name="PassReq" xml:space="preserve">
-    <value>Hasło musi składać się z co najmniej:</value>
+    <value>Password must contain at least:</value>
   </data>
   <data name="PassReq1" xml:space="preserve">
-    <value>• jednej dużej litery</value>
+    <value>• one uppercase letter</value>
   </data>
   <data name="PassReq2" xml:space="preserve">
-    <value>• jednej małej litery</value>
+    <value>• one lower case letter</value>
   </data>
   <data name="PassReq3" xml:space="preserve">
-    <value>• jednej cyfry</value>
+    <value>• one digit</value>
   </data>
   <data name="PassReq4" xml:space="preserve">
-    <value>• jednego znaku</value>
+    <value>• one special character</value>
   </data>
   <data name="Password" xml:space="preserve">
-    <value>Hasło</value>
+    <value>Password</value>
   </data>
   <data name="Password2" xml:space="preserve">
-    <value>Powtórz hasło</value>
+    <value>Retype password</value>
   </data>
   <data name="Password2Fail" xml:space="preserve">
-    <value>Podane hasła się nie zgadzają</value>
+    <value>Given passwords do not match</value>
   </data>
   <data name="Password2Placeholder" xml:space="preserve">
-    <value>podaj hasło ponownie</value>
+    <value>enter password again</value>
   </data>
   <data name="PasswordFail" xml:space="preserve">
-    <value>Podane hasło nie spełnia wymogów bezpieczeństwa</value>
+    <value>Given password does not meet security requirements</value>
   </data>
   <data name="PasswordPlaceholder" xml:space="preserve">
-    <value>podaj hasło</value>
+    <value>enter password</value>
   </data>
   <data name="PasswordStrength" xml:space="preserve">
-    <value>Siła hasła</value>
+    <value>PasswordStrength</value>
   </data>
   <data name="Pesel" xml:space="preserve">
     <value>PESEL</value>
   </data>
   <data name="PeselFail" xml:space="preserve">
-    <value>Błędny PESEL</value>
+    <value>Invalid PESEL</value>
   </data>
   <data name="PeselPlaceholder" xml:space="preserve">
-    <value>podaj PESEL</value>
+    <value>enter PESEL</value>
+  </data>
+  <data name="Polish" xml:space="preserve">
+    <value>Polish</value>
   </data>
   <data name="Pwz" xml:space="preserve">
-    <value>Numer PWZ</value>
+    <value>PWZ number</value>
   </data>
   <data name="PwzFail" xml:space="preserve">
-    <value>Podano błędny numer.</value>
+    <value>Invalid number given.</value>
   </data>
   <data name="PwzFail2" xml:space="preserve">
-    <value>Sprawdź zasady weryfikacji.</value>
+    <value>Check verification policy.</value>
   </data>
   <data name="PwzPlaceholder" xml:space="preserve">
-    <value>podaj numer PWZ</value>
+    <value>enter PWZ number</value>
   </data>
   <data name="Shifts" xml:space="preserve">
-    <value>Dyżury</value>
+    <value>Shifts</value>
   </data>
   <data name="ShowPass" xml:space="preserve">
-    <value>pokaż hasło</value>
+    <value>show password</value>
   </data>
   <data name="SignIn" xml:space="preserve">
-    <value>Zaloguj</value>
+    <value>Sign In</value>
   </data>
   <data name="SignInFail" xml:space="preserve">
-    <value>Błędne dane logowania!</value>
+    <value>Invalid login details</value>
   </data>
   <data name="Spec" xml:space="preserve">
-    <value>Specjalizacja</value>
+    <value>Specialization</value>
   </data>
   <data name="SpecLabel" xml:space="preserve">
-    <value>Specjalizacja lekarska</value>
-  </data>
-  <data name="String" xml:space="preserve">
-    <value>o numerze PESEL: {pesel}</value>
-  </data>
-  <data name="String2" xml:space="preserve">
-    <value>Czy chcesz dodać użytkownika?</value>
+    <value>Medical specialization</value>
   </data>
   <data name="Success" xml:space="preserve">
-    <value>Sukces!</value>
+    <value>Success!</value>
   </data>
   <data name="Surname" xml:space="preserve">
-    <value>Nazwisko</value>
+    <value>Surname</value>
   </data>
   <data name="SurnamePlaceholder" xml:space="preserve">
-    <value>podaj nazwisko</value>
+    <value>enter surname</value>
   </data>
   <data name="Urologist" xml:space="preserve">
-    <value>Urolog</value>
+    <value>Urologist</value>
   </data>
   <data name="UserShifts" xml:space="preserve">
-    <value>Dyżury użytkownika:</value>
+    <value>User's shifts</value>
   </data>
   <data name="Warning" xml:space="preserve">
-    <value>Uwaga</value>
+    <value>Warning</value>
   </data>
 </root>

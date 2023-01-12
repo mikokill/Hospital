@@ -12,7 +12,7 @@ namespace Hospital
         public ShiftAdd(string selectedPesel, bool edit, DateTime? time = null)
         {
             InitializeComponent();
-            if (time != null)
+            if (time != null && time <= dateTimePicker1.MaxDate && time >= dateTimePicker1.MinDate)
                 selectedDate = (DateTime)time;
             else
                 selectedDate = DateTime.Now;

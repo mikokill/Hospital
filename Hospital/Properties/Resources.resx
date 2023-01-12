@@ -135,6 +135,9 @@
   <data name="Change" xml:space="preserve">
     <value>Zmień</value>
   </data>
+  <data name="ChangeLanguage" xml:space="preserve">
+    <value>Zmień język</value>
+  </data>
   <data name="ChooseDate" xml:space="preserve">
     <value>Wybierz datę:</value>
   </data>
@@ -184,6 +187,9 @@ o numerze PESEL: {pesel}</value>
   <data name="EmptyFail" xml:space="preserve">
     <value>Wypełnij wszystkie pola</value>
   </data>
+  <data name="English" xml:space="preserve">
+    <value>Angielski</value>
+  </data>
   <data name="Laryngologist" xml:space="preserve">
     <value>Laryngolog</value>
   </data>
@@ -223,6 +229,9 @@ Czy chcesz dodać użytkownika?</value>
   </data>
   <data name="OneAdmin" xml:space="preserve">
     <value>W systemie musi figurować co najmniej jedno konto administratora.</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Opcje</value>
   </data>
   <data name="PassReq" xml:space="preserve">
     <value>Hasło musi składać się z co najmniej:</value>
@@ -268,6 +277,9 @@ Czy chcesz dodać użytkownika?</value>
   </data>
   <data name="PeselPlaceholder" xml:space="preserve">
     <value>podaj PESEL</value>
+  </data>
+  <data name="Polish" xml:space="preserve">
+    <value>Polski</value>
   </data>
   <data name="Pwz" xml:space="preserve">
     <value>Numer PWZ</value>

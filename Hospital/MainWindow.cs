@@ -565,16 +565,22 @@ namespace Hospital
             e.NewWidth = listView2.Columns[e.ColumnIndex].Width;
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("pl-PL");
-            InitializeComponent();
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void angToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en-US");
+            Controls.Clear();
             InitializeComponent();
+            Form2_Load(sender, e);
+            this.Text = Properties.Resources.AppTitle;
+        }
+
+        private void polToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("pl-PL");
+            Controls.Clear();
+            InitializeComponent();
+            Form2_Load(sender, e);
+            this.Text = Properties.Resources.AppTitle;
         }
     }
 }
