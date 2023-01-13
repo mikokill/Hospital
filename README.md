@@ -1,4 +1,4 @@
-![szpital](https://user-images.githubusercontent.com/75019805/211421232-e4d4faa4-c062-45d9-84f7-913e7705d21c.png)
+![szpital](https://user-images.githubusercontent.com/75019805/212238817-67608730-657f-4cf1-892f-fccc716cbb4b.png)
 # Hospital App
 C# based hospital management system
 
