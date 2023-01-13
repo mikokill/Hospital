@@ -6,14 +6,17 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <NeutralLanguage>pl-PL</NeutralLanguage>
     <Description>Hospital Management System</Description>
     <PackageProjectUrl></PackageProjectUrl>
     <PackageIcon>szpital.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>github.com/mikolaj-szubert/hospital</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
+    <Authors>Mikołaj Szubert</Authors>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0-windows\szpital.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Include="..\README.md">
@@ -42,6 +45,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
 
 </Project>

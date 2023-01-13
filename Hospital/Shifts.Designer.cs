@@ -129,7 +129,7 @@ namespace Hospital
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Icon = ((System.Drawing.Icon)(Resources.szpital));
             this.MaximizeBox = false;
             this.Name = "Dyzury";
             this.Text = Resources.AppTitle;

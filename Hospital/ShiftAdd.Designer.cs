@@ -109,7 +109,7 @@ namespace Hospital
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dateTimePicker1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Icon = ((System.Drawing.Icon)(Resources.szpital));
             this.Name = "DyzurAdd";
             this.Text = Resources.AppTitle;
             this.ResumeLayout(false);

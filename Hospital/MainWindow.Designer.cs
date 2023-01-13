@@ -725,7 +725,7 @@ namespace Hospital
             this.ClientSize = new System.Drawing.Size(650, 474);
             this.Controls.Add(this.karty);
             this.Controls.Add(this.menuStrip1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Icon = ((System.Drawing.Icon)(Resources.szpital));
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(868, 513);

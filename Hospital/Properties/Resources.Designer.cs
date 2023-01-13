@@ -666,6 +666,16 @@ namespace Hospital.Properties {
         }
         
         /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Icon podobny do zasobu (Ikona).
+        /// </summary>
+        internal static System.Drawing.Icon szpital {
+            get {
+                object obj = ResourceManager.GetObject("szpital", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
         /// Wyszukuje zlokalizowany ciąg podobny do ciągu Urolog.
         /// </summary>
         internal static string Urologist {
